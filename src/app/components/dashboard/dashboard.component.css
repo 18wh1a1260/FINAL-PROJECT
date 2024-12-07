@@ -1,0 +1,84 @@
+/* General Container */
+.dashboard-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f0f4f8, #ffffff); /* Subtle gradient for a modern feel */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Title */
+.dashboard-title {
+    font-size: 2.5rem; /* Larger for prominence */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333333;
+}
+
+/* Card Styles */
+.dashboard-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Title */
+.dashboard-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+/* Card Text */
+.dashboard-card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+}
+
+/* Link Styles */
+.dashboard-link {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* List Styles */
+.dashboard-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.dashboard-list li {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.dashboard-list li::before {
+    content: "•"; /* Custom bullet point */
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-size: 1.5rem;
+    line-height: 1;
+}

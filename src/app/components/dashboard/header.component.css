@@ -1,0 +1,60 @@
+header {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    color: white;
+}
+
+.custom-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    height: 70px;
+}
+
+.custom-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex: 1;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.custom-nav-items {
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.custom-nav-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-nav-items a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+    transform: scale(1.1); /* Adds interactivity */
+}
+
+.custom-nav-items button {
+    background-color: white;
+    color: #dc3545;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-nav-items button:hover {
+    background-color: #ffc0cb; /* Adds a light pink hover effect */
+    transform: scale(1.1);
+}
